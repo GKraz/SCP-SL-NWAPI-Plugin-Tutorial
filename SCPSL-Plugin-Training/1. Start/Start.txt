@@ -1,0 +1,17 @@
+﻿Welcome to my SCP:SL Plugin Creation Guide! (by DMFGames)
+
+THIS IS NOT A PLUGIN DO PUT THIS IN AN SCP:SL SERVER!!!
+
+1.  To start, create a new project in your desired IDE/Coding Environment.
+    -   You will be creating a .Net Framework Class Library
+    -   .Net Framework version 4.8 is required. (.Net Framework v4.8)
+    
+2.  Open your new project; it is time to add dependencies.
+    These are found here: "C:\Program Files (x86)\Steam\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data"
+    (You will need to have the "SCP: Secret Laboratory Dedicated Server" installed on Steam.)
+    -   Assembly-CSharp.dll
+    -   PluginAPI.dll
+    
+    More dlls can be added for anything needed for your plugin. The ones listed are the only ones used for the examples.
+    
+3. Move onto the next section, "2. Basic Example"
