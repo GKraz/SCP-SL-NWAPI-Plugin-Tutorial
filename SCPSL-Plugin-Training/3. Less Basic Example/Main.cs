@@ -13,7 +13,7 @@ namespace SCPSL_Plugin_Training._3._Less_Basic_Example
         /// <summary>
         /// Initial plugin loading and event registration
         /// </summary>
-        [PluginEntryPoint("LessBasicPlugin", "", "", "")]
+        [PluginEntryPoint("LessBasicPlugin", "0.0.0", "Example", "DMFGames")]
         public void EntryPoint()
         {
             Plugin = this;
