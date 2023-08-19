@@ -47,16 +47,18 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="2. Basic Example\BasicExample.cs" />
-        <Compile Include="3. Less Basic Example\ExampleEvent\Event.cs" />
-        <Compile Include="3. Less Basic Example\ExampleEvent\SubConfig.cs" />
-        <Compile Include="3. Less Basic Example\MainConfig.cs" />
+        <Compile Include="3. Less Basic Example\ExampleEvents\HandcuffExample.cs" />
+        <Compile Include="3. Less Basic Example\ExampleEvents\SubConfig.cs" />
+        <Compile Include="3. Less Basic Example\ExampleEvents\WarheadExample.cs" />
         <Compile Include="3. Less Basic Example\Main.cs" />
+        <Compile Include="3. Less Basic Example\MainConfig.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
       <Content Include="1. Start\Dependency Files\Assembly-CSharp.dll" />
       <Content Include="1. Start\Dependency Files\PluginAPI.dll" />
       <Content Include="1. Start\Start.txt" />
+      <Content Include="3. Less Basic Example\WhatConfigLooksLike.yml" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

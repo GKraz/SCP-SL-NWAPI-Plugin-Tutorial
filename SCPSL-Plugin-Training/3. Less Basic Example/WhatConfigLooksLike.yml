@@ -1,0 +1,7 @@
+# If the plugin is enabled.
+enabled: true
+sub_config:
+  # This is a string
+  string: Example string
+  # Irradiation damage interval (seconds).
+  interval: 2
