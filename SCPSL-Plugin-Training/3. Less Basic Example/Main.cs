@@ -6,9 +6,7 @@ namespace SCPSL_Plugin_Training._3._Less_Basic_Example
 {
     public class Main
     {
-        public static Main Plugin { get; private set; }
-        
-        [PluginConfig] public MainConfig MainConfig;
+        [PluginConfig] public static MainConfig MainConfig;
         
         /// <summary>
         /// Initial plugin loading and event registration
@@ -16,15 +14,13 @@ namespace SCPSL_Plugin_Training._3._Less_Basic_Example
         [PluginEntryPoint("LessBasicPlugin", "0.0.0", "Example", "DMFGames")]
         public void EntryPoint()
         {
-            Plugin = this;
-            
-            if (!Plugin.MainConfig.Enabled) return;
+            if (!MainConfig.Enabled) return;
             
             // You can register events by class.
-            EventManager.RegisterEvents<HandcuffExample>(Plugin);
+            EventManager.RegisterEvents<HandcuffExample>(this);
             
             // Or register all events.
-            EventManager.RegisterAllEvents(Plugin);
+            EventManager.RegisterAllEvents(this);
         }
     }
 }

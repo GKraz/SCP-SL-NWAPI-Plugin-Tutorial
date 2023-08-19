@@ -8,7 +8,7 @@ namespace SCPSL_Plugin_Training._3._Less_Basic_Example.ExampleEvents;
 
 public class WarheadExample
 {
-    private static SubConfig Config => Main.Plugin.MainConfig.SubConfig;
+    private static SubConfig Config => Main.MainConfig.SubConfig;
     
     /// <summary>
     /// On the detonation of the warhead each player is given a radiation effect that slowly kills them.

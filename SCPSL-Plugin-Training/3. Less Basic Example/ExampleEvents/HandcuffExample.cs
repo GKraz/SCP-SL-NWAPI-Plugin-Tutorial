@@ -9,7 +9,7 @@ namespace SCPSL_Plugin_Training._3._Less_Basic_Example.ExampleEvents
 {
     public class HandcuffExample
     {
-        private static SubConfig Config => Main.Plugin.MainConfig.SubConfig;
+        private static SubConfig Config => Main.MainConfig.SubConfig;
 
         /// <summary>
         /// When a player is handcuffed the hancuffed player is turned into the spectator role and given a message.
